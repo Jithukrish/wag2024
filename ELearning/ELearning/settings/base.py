@@ -201,3 +201,17 @@ WAGTAILADMIN_BASE_URL = "http://example.com"
 # if untrusted users are allowed to upload files -
 # see https://docs.wagtail.org/en/stable/advanced_topics/deploying.html#user-uploaded-files
 WAGTAILDOCS_EXTENSIONS = ['csv', 'docx', 'key', 'odt', 'pdf', 'pptx', 'rtf', 'txt', 'xlsx', 'zip']
+
+# ACTIVATE_SMS = True if os.getenv("APP_ACTIVATE_SMS", "False") == "True" else False
+# ACTIVATE_EMAIL = True if os.getenv("APP_ACTIVATE_EMAIL", 'False') == "True" else False
+
+# #send grid email settings
+# EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+# EMAIL_HOST = os.getenv('EMAIL_HOST')
+# EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+# EMAIL_PORT = os.getenv('EMAIL_PORT')
+# EMAIL_USE_TLS = True
+# EMAIL_SYS_ADMINS = os.getenv("EMAIL_SYS_ADMINS", "").split(" ")
+
+# EMAIL_VERIFICATION_TOKEN_RESET_TIMEOUT= 60 * 10 #10 minutes

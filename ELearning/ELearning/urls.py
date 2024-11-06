@@ -29,8 +29,8 @@ urlpatterns = urlpatterns + [
     #    path('api/v2/home/', include('home.urls')),
        path('api/v2/course/', include('Course.urls')),
        path('api/v2/subjects/', include('subjects.urls')),
-    #    path('api/v2/home/', include('home.urls')),
-    #    path('api/v2/home/', include('home.urls')),
+       path('api/v2/footer/', include('footer.urls')),
+       path('api/v2/navigation/', include('Navigation.urls')),
 
     path("", include(wagtail_urls)),
    

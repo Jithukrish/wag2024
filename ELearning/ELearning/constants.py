@@ -47,8 +47,8 @@ FRONTEND_FOLDERS = [
 
 #api urls corresponding to models
 API_URLS = [
-	    ('aboutpage', 'about-us/',),
-        # ('servicepage', 'service/',),
+	    # ('aboutpage', 'about-us/',),
+        ('CoursePage', 'course/',),
         # ('tradingpage', 'trading/',),
         # ('productpage', 'product/',),
         # ('partnershippage','partnership/',),

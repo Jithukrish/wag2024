@@ -33,6 +33,7 @@ class HomePage(Page):
         FieldPanel('image_slider'),
         FieldPanel('content'),        
     ]
+    template ="home/index.html"
     class Meta:
         verbose_name = _("Home Page")
         verbose_name_plural = _("Home Pages")
